@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jupyter_tutorial:
+    image: jdmitz/jupyter_tutorial:0.1
+    ports:
+      - '8889:8888'
+    # volumes:
+    #   - ./tutorial:/opt/notebooks/tutorial
+    command: ['/opt/conda/bin/jupyter', 'notebook', '--allow-root', '--notebook-dir="/opt/notebooks"', '--ip=0.0.0.0', '--port=8888', '--no-browser']
