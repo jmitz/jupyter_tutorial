@@ -1,4 +1,4 @@
-# Docker image for the [Jupyter Widet Ecosystem Tutorial](https://github.com/jupyter-widgets/tutorial)
+# Docker image for the [Jupyter Widget Ecosystem Tutorial](https://github.com/jupyter-widgets/tutorial)
 ## [https://github.com/jupyter-widgets/tutorial](https://github.com/jupyter-widgets/tutorial)
 The Docker image is build from the [continuumio/miniconda3](https://hub.docker.com/r/continuumio/miniconda3/) docker image and follows the installation procedure provided by [jupyter-widgets/tutorial](https://github.com/jupyter-widgets/tutorial).
 ## How to use this image
